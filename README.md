@@ -1,8 +1,12 @@
 # Cours git
 
 
-## Initialisation d'un dépot
+## Installation de git
 
-	Création d'un dépot vide : git init
-	Création d'un dépot à partir d'un dépot : glit clone [url]
-	Ici : url = https://github.com/GoGoAndroid/cours_git.git
+	Windows : http://msysgit.github.io
+	Mac : http://sourceforge.net/projects/git-osx-installer/
+	Linux : 
+		yum install git
+		apt-get install git
+		
+	
