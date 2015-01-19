@@ -1,50 +1,39 @@
 # Découverte de git
 
-## A quoi sert git ?
-	C'est un système de gestion de version décentralisé.
+## Modifier un fichier
+
+	Un fichier modifié est pris en compte locallement par git, lorsqu'il est soumis.
+	La commande de soumission est git commit -m"résumé des mofofications" [les fichiers]
 	
-	Il permet le développement en groupe,
-	de disposer de l'historique complet des changements d'un code source,
-	de gérer des développements concurents sur un même projet (release, dev, alpha, beta, ...) .
+## Ajouter un fichier
+
+	Lorsqu'un fichier est créé, pour que git le connaisse, il faut utiliser la commande add
+	1. git add [les fichiers]. Une fois qu'il a été ajouté il faut ensuite le soumettre,
+	2. git commit -m"message" [les fichiers]
 	
+## Partager les modifications
 
-## Installation de git
-
-	Windows : http://msysgit.github.io
-	Mac : http://sourceforge.net/projects/git-osx-installer/
-	Linux : 
-		yum install git
-		apt-get install git
-		
+	Une fois les modifications soumises, pour les partager avec un autre dépot, c'est la commande push que l'on utilise :
+	git push origin/[nom de la branche]
 	
-## Initialisation d'un dépot
-
-	Création d'un dépot vide : git init
-	Création d'un dépot à partir d'un dépot : glit clone [url]
+## En cas de conflit
 	
-### L'url
-	Ici : url = https://github.com/GoGoAndroid/cours_git.git
-	Git dispose de différents protocoles de transfert que vous pouvez utiliser. 
-	Notre exemple  utilise le protocole 
-		https:// , mais pouvez aussi voir
-		git://  ou,
-		utilisateur@serveur:/chemin.git , qui utilise le protocole de transfert SSH.
-		
-
-### Procéder à la découverte
-
-	1 Récupérer, lire et comprendre la branche d'explication des branches avec git checkout les_branches
-	2 Récupérer, lire et comprendre la branche d'explication des soumissions : "les_soumissions"
-	3 Récupérer, lire et comprendre la branche d'explication de la configuration  : "la_configutation_de_git"
-	4 Ajouter son nom dans le fichier bien_compris.txt de chacune des branches
-		master
-		Init
-		checkout les_branches
-		la_configutation_de_git
-	5 Faire évoluer la faq dans le master : faq.txt
-	6 Récupérer lire et comprendre chacun des README.md de chacune des branches du dépot
-		Ajouter son nom dans chacune des branches pour indiquer que les instructions ont été réalisées
-		
+	Si votre branche à été modifiée sur le dépot distant, votre dépot ne peut pas être partagé. 
+	Il faut en préalable mettre votre dépot a jour avec la commande pull
+	git pull
+	Et résoudre les conflits éventuels, c'est à dire corriger les fichiers qui n'ont pas pu être mergés.
+	
+### Corriger les conflits
+	Les fichiers non mergés sont fusionnés de cette façon 
+	<<<<<<< HEAD:[file]
+	ce qui est dans la branche originale
+	=======
+	ce qui vient de l'autre branche
+	>>>>>>> prob53:[file]
+	
+	Corriger les conflits c'est supprimer intelligemment les lignes qui n'ont rien à faire dans la version fusionnée.
+	
+	
 	
 	
 	
