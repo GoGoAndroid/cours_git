@@ -34,15 +34,16 @@
 ### Procéder à la découverte
 
 	1 Récupérer, lire et comprendre la branche d'explication des branches avec git checkout les_branches
-	2 Récupérer, lire et comprendre la branche d'explication des soumissions : "les_soumissions"
+	2 Récupérer, lire et comprendre la branche d'explication des soumissions : "modifier"
 	3 Récupérer, lire et comprendre la branche d'explication de la configuration  : "la_configutation_de_git"
-	4 Ajouter son nom dans le fichier bien_compris.txt de chacune des branches
-		master
-		Init
-		checkout les_branches
-		la_configutation_de_git
-	5 Faire évoluer la faq dans le master : faq.txt
-	6 Récupérer lire et comprendre chacun des README.md de chacune des branches du dépot
+	==
+		I Une fois ces explications bien comprises, ajouter son nom dans le fichier bien_compris.txt de chacune des branches
+			master
+			Init
+			checkout les_branches
+			la_configutation_de_git
+		II Faire évoluer la faq dans le master : faq.txt
+		III Récupérer lire et comprendre chacun des README.md de chacune des branches du dépot
 		Ajouter son nom dans chacune des branches pour indiquer que les instructions ont été réalisées
 		
 	
