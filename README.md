@@ -1,7 +1,7 @@
 # Configurer son dépot
 
-	Configurer son dépot c'est indiquer au système quel est son nom d'utilisateur et son mail.
-	Cela permet de partager sans équivoque ses changement.
+	Configurer son dépot c'est entre autre indiquer au système quel est son identité.
+	Cela permet de partager sans équivoque ses changements.
 
 ## Vérifier sa config
 	git config --list
