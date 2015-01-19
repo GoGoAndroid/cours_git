@@ -1,4 +1,4 @@
-# Cours git
+# Découvert de git
 
 ## A quoi sert git ?
 	C'est un système de gestion de version décentralisé.
