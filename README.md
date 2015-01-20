@@ -1,4 +1,5 @@
 
+>>>>>>> 66f9c787114e457e8f8d24e4b9bf822240e44962
 	Création d'un dépot vide : git init
 	Création d'un dépot à partir d'un dépot : glit clone [url]
 	
@@ -15,6 +16,6 @@
 
 	Executez la commande git checkout configuration, lisez les explications et réalisez les instructions.
 
-	
-		
-	
+
+
+>>>>>>> 66f9c787114e457e8f8d24e4b9bf822240e44962
