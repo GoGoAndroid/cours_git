@@ -15,7 +15,7 @@
 ## Partager les modifications
 
 	Une fois les modifications soumises, pour les partager avec un autre dépot, c'est la commande push que l'on utilise :
-	git push origin/[nom de la branche]
+	git push origin [nom de la branche]
 	
 ## En cas de conflit
 	
