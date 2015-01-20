@@ -33,7 +33,7 @@
 
 # Procéder à la découverte
 
-	Executez la commande git checkout branches, lisez les explications et réalisez les instructions
+	Executez la commande git checkout configuration, lisez les explications et réalisez les instructions.
 
 	
 		
