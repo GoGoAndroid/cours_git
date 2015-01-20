@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+﻿# Les branches
+=======
+>>>>>>> 30ad461d10e3d2935bdbc90e6f393fe9ecbd37a5
 
 <<<<<<< HEAD
 loin d'être une complication les branches facilitent le travail.
@@ -13,6 +17,8 @@ loin d'être une complication les branches facilitent le travail.
 	La branche courante, sur laquelle vous travaillez, est identifiée par une "*" lorsque vous tapez la commande :
 		git branch 
 
+<<<<<<< HEAD
+=======
 
 <<<<<<< HEAD
 =======
@@ -21,6 +27,7 @@ loin d'être une complication les branches facilitent le travail.
 >>>>>>> 30ad461d10e3d2935bdbc90e6f393fe9ecbd37a5
 	Création d'un dépot vide : git init
 	Création d'un dépot à partir d'un dépot : glit clone [url]
+>>>>>>> 30ad461d10e3d2935bdbc90e6f393fe9ecbd37a5
 	
 ### L'url
 	Ici : url = https://github.com/GoGoAndroid/cours_git.git
@@ -35,6 +42,9 @@ loin d'être une complication les branches facilitent le travail.
 
 	Executez la commande git checkout configuration, lisez les explications et réalisez les instructions.
 
+<<<<<<< HEAD
+
+=======
 <<<<<<< HEAD
 	
 		
