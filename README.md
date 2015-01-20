@@ -52,6 +52,9 @@
 		4. Créez un tepmplate raintpl HTML pour réaliser votre CV nommé [nom_nom].cv
 		5. Créer un ficher build.php qui génère votre CV
 		
+# Vous pouvez partager maintenant vos templates de CV avec git, pour réaliser votre propre CV
+
+
 
 
 		
