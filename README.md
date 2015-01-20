@@ -1,6 +1,4 @@
-# La création d'un dépot
-	Création d'un dépot vide : git init
-	Création d'un dépot à partir d'un dépot : glit clone [url]
+
 	
 ### L'url
 	Ici : url = https://github.com/GoGoAndroid/cours_git.git
@@ -15,4 +13,3 @@
 
 	Executez la commande git checkout configuration, lisez les explications et réalisez les instructions.
 
-	
