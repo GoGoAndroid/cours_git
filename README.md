@@ -11,6 +11,12 @@
 	git config --global user.email [mon email]
 
 Ceci étant fait vous êtes en mesure de partager vos changements.
+
+# Instructions
+
+1. Créez un compte git-hub sur git-hub.com et utilisez les paramètres de ce compte pour définir votre identité.
+2. Allez à la branche "branches", lisez les explications et suivez les instructions.
+
 	
 	
 	
