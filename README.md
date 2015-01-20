@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 ﻿# Les branches
 =======
 >>>>>>> 30ad461d10e3d2935bdbc90e6f393fe9ecbd37a5
@@ -31,6 +32,8 @@ loin d'être une complication les branches facilitent le travail.
 	Création d'un dépot vide : git init
 	Création d'un dépot à partir d'un dépot : glit clone [url]
 >>>>>>> 30ad461d10e3d2935bdbc90e6f393fe9ecbd37a5
+=======
+>>>>>>> e9adb795a1866af76732e290b26f9ff3cb1e3d83
 	
 ### L'url
 	Ici : url = https://github.com/GoGoAndroid/cours_git.git
@@ -44,6 +47,7 @@ loin d'être une complication les branches facilitent le travail.
 # Procéder à la découverte
 
 	Executez la commande git checkout configuration, lisez les explications et réalisez les instructions.
+<<<<<<< HEAD
 
 <<<<<<< HEAD
 
@@ -85,3 +89,5 @@ loin d'être une complication les branches facilitent le travail.
 >>>>>>> f07939eb23e31285ec749b4a2b9fa936fbd3de62
 >>>>>>> 30ad461d10e3d2935bdbc90e6f393fe9ecbd37a5
 >>>>>>> 4fd0b31389d5a22885578e8250896e1ee714cce9
+=======
+>>>>>>> e9adb795a1866af76732e290b26f9ff3cb1e3d83
