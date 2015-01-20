@@ -31,20 +31,11 @@
 		utilisateur@serveur:/chemin.git , qui utilise le protocole de transfert SSH.
 		
 
-### Procéder à la découverte
+# Procéder à la découverte
 
-	1 Récupérer, lire et comprendre la branche d'explication des branches avec git checkout les_branches
-	2 Récupérer, lire et comprendre la branche d'explication des soumissions : "modifier"
-	3 Récupérer, lire et comprendre la branche d'explication de la configuration  : "la_configutation_de_git"
-	==
-		I Une fois ces explications bien comprises, ajouter son nom dans le fichier bien_compris.txt de chacune des branches
-			master
-			Init
-			checkout les_branches
-			la_configutation_de_git
-		II Faire évoluer la faq dans le master : faq.txt
-		III Récupérer lire et comprendre chacun des README.md de chacune des branches du dépot
-		Ajouter son nom dans chacune des branches pour indiquer que les instructions ont été réalisées
+	Executez la commande git checkout branches, lisez les explications et réalisez les instructions
+
+	
 		
 	
 	
