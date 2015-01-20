@@ -1,5 +1,5 @@
-# Les branches
 
+<<<<<<< HEAD
 loin d'être une complication les branches facilitent le travail.
 	Elles renent le travail en collaboration plus aisé
 	Elles permettent de développer plusieurs versions en parralèle
@@ -12,6 +12,9 @@ loin d'être une complication les branches facilitent le travail.
 
 
 <<<<<<< HEAD
+=======
+>>>>>>> 66f9c787114e457e8f8d24e4b9bf822240e44962
+>>>>>>> f07939eb23e31285ec749b4a2b9fa936fbd3de62
 	Création d'un dépot vide : git init
 	Création d'un dépot à partir d'un dépot : glit clone [url]
 	
@@ -28,6 +31,7 @@ loin d'être une complication les branches facilitent le travail.
 
 	Executez la commande git checkout configuration, lisez les explications et réalisez les instructions.
 
+<<<<<<< HEAD
 	
 		
 	
@@ -51,3 +55,8 @@ loin d'être une complication les branches facilitent le travail.
 2. Positionnez vous sur la branche "modifier"
 
 >>>>>>> traore
+=======
+
+
+>>>>>>> 66f9c787114e457e8f8d24e4b9bf822240e44962
+>>>>>>> f07939eb23e31285ec749b4a2b9fa936fbd3de62
