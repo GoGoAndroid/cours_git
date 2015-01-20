@@ -1,9 +1,4 @@
-<<<<<<< HEAD
-﻿# Les branches
-=======
->>>>>>> 30ad461d10e3d2935bdbc90e6f393fe9ecbd37a5
 
-<<<<<<< HEAD
 loin d'être une complication les branches facilitent le travail.
 	Elles renent le travail en collaboration plus aisé
 	Elles permettent de développer plusieurs versions en parralèle
@@ -14,10 +9,7 @@ loin d'être une complication les branches facilitent le travail.
 	La branche courante, sur laquelle vous travaillez, est identifiée par une "*" lorsque vous tapez la commande :
 		git branch 
 
-<<<<<<< HEAD
-=======
 
-<<<<<<< HEAD
 =======
 >>>>>>> 66f9c787114e457e8f8d24e4b9bf822240e44962
 >>>>>>> f07939eb23e31285ec749b4a2b9fa936fbd3de62
@@ -38,10 +30,7 @@ loin d'être une complication les branches facilitent le travail.
 
 	Executez la commande git checkout configuration, lisez les explications et réalisez les instructions.
 
-<<<<<<< HEAD
 
-=======
-<<<<<<< HEAD
 	
 		
 	
@@ -64,10 +53,4 @@ loin d'être une complication les branches facilitent le travail.
 1. Créez une branche portant votre prénom
 2. Positionnez vous sur la branche "modifier"
 
->>>>>>> traore
-=======
 
-
->>>>>>> 66f9c787114e457e8f8d24e4b9bf822240e44962
->>>>>>> f07939eb23e31285ec749b4a2b9fa936fbd3de62
->>>>>>> 30ad461d10e3d2935bdbc90e6f393fe9ecbd37a5
