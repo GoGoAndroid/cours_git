@@ -1,19 +1,36 @@
-# Les branches
+<<<<<<< HEAD
+﻿# Les branches
+=======
+>>>>>>> 30ad461d10e3d2935bdbc90e6f393fe9ecbd37a5
 
+<<<<<<< HEAD
 loin d'être une complication les branches facilitent le travail.
 	Elles renent le travail en collaboration plus aisé
 	Elles permettent de développer plusieurs versions en parralèle
 	Elles servent aussi à figer nommer les versions (v1.0,v1.1, dev, pre-prod,alpha, beta, ...)
+<<<<<<< HEAD
+
+=======
 	
 
 ## La branche courante
 	La branche courante, sur laquelle vous travaillez, est identifiée par une "*" lorsque vous tapez la commande :
 		git branch 
 
+<<<<<<< HEAD
+=======
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 66f9c787114e457e8f8d24e4b9bf822240e44962
+>>>>>>> f07939eb23e31285ec749b4a2b9fa936fbd3de62
+>>>>>>> 30ad461d10e3d2935bdbc90e6f393fe9ecbd37a5
+>>>>>>> 4fd0b31389d5a22885578e8250896e1ee714cce9
 	Création d'un dépot vide : git init
 	Création d'un dépot à partir d'un dépot : glit clone [url]
+>>>>>>> 30ad461d10e3d2935bdbc90e6f393fe9ecbd37a5
 	
 ### L'url
 	Ici : url = https://github.com/GoGoAndroid/cours_git.git
@@ -28,8 +45,15 @@ loin d'être une complication les branches facilitent le travail.
 
 	Executez la commande git checkout configuration, lisez les explications et réalisez les instructions.
 
+<<<<<<< HEAD
+
+=======
+<<<<<<< HEAD
 	
 		
+<<<<<<< HEAD
+	
+=======
 	
 	
 	
@@ -50,4 +74,14 @@ loin d'être une complication les branches facilitent le travail.
 1. Créez une branche portant votre prénom
 2. Positionnez vous sur la branche "modifier"
 
+<<<<<<< HEAD
 >>>>>>> alex
+=======
+>>>>>>> traore
+=======
+
+
+>>>>>>> 66f9c787114e457e8f8d24e4b9bf822240e44962
+>>>>>>> f07939eb23e31285ec749b4a2b9fa936fbd3de62
+>>>>>>> 30ad461d10e3d2935bdbc90e6f393fe9ecbd37a5
+>>>>>>> 4fd0b31389d5a22885578e8250896e1ee714cce9
