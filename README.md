@@ -1,39 +1,63 @@
-# Découverte de git
+# Les templates HTML
 
-## A quoi sert git ?
-	C'est un système de gestion de version décentralisé.
+## Qu'est ce qu'un template HTML?
 	
-	Il permet le développement en groupe,
-	de disposer de l'historique complet des changements d'un code source,
-	de gérer des développements concurents sur un même projet (release, dev, alpha, beta, ...) .
-	
+	Un template ou modèle permet de séparer les données du code HTML
+	Ainsi, plusieurs jeux de données produiront autant de pages HTML avec un même modèle.
 
-## Installation de git
+## rainTPL
+	raintpl est un système de template simple en php, disponible sous git-hub
 
-	Windows : http://msysgit.github.io
-	Mac : http://sourceforge.net/projects/git-osx-installer/
-	Linux : 
-		yum install git
-		apt-get install git
+# Instructions
+
+	1. Créez un clone de raintpl sur votre machine
+	2. Créez un fichier php nommé cv_data.php contenant la structure suivante 
+
+		$personne = array( 
+			"prenom" => "[mon nom]", 
+			"nom" => "[mon prénom]", 
+			"telephone" => "[mon tel]"
+			"formations"=>array(
+				1=>array(
+					"entree"=>"01/01/01",
+					"sortie"=>"01/01/01", 
+					etablissement=>"etablissement",
+					formation=>"intitulé de la formation"),
+
+				2=>array(
+					"entree"=>"01/01/01",
+					"sortie"=>"01/01/01", 
+					etablissement=>"etablissement",
+					formation=>"intitulé de la formation"),
+				...
+				),
+			),
+			"expériences professionelles"=>array(
+				1=>array(
+					"entree"=>"01/01/01",
+					"sortie"=>"01/01/01", 
+					etablissement=>"etablissement",
+					formation=>"description de la mission"),
+
+				2=>array(
+					"entree"=>"01/01/01",
+					"sortie"=>"01/01/01", 
+					etablissement=>"etablissement",
+					mission=>"description de la mission"),
+				...
+				)
+			),
+		);
+		3. Soumettez votre fichier
+		4. Créez un tepmplate raintpl HTML pour réaliser votre CV nommé [nom_nom].cv
+		5. Créer un ficher build.php qui génère votre CV
 		
-	
-## Initialisation d'un dépot
 
-	Création d'un dépot vide : git init
-	Création d'un dépot à partir d'un dépot : glit clone [url]
-	
-### L'url
-	Ici : url = https://github.com/GoGoAndroid/cours_git.git
-	Git dispose de différents protocoles de transfert que vous pouvez utiliser. 
-	Notre exemple  utilise le protocole 
-		https:// , mais pouvez aussi voir
-		git://  ou,
-		utilisateur@serveur:/chemin.git , qui utilise le protocole de transfert SSH.
+
 		
 
-# Procéder à la découverte
 
-	Executez la commande git checkout configuration, lisez les explications et réalisez les instructions.
+
 
 	
 		
