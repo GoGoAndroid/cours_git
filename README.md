@@ -1,16 +1,29 @@
+
+
+=======
 	
-### L'url
-	Ici : url = https://github.com/GoGoAndroid/cours_git.git
-	Git dispose de différents protocoles de transfert que vous pouvez utiliser. 
-	Notre exemple  utilise le protocole 
-		https:// , mais pouvez aussi voir
-		git://  ou,
-		utilisateur@serveur:/chemin.git , qui utilise le protocole de transfert SSH.
-		
 
-# Procéder à la découverte
+## La branche courante
+	La branche courante, sur laquelle vous travaillez, est identifiée par une "*" lorsque vous tapez la commande :
+		git branch 
 
-	Executez la commande git checkout configuration, lisez les explications et réalisez les instructions.
+	
+	
+	
+=======
+## Création de branche
+	Pour créer une branche, c'est la commande 
+	git branch [nom de la nouvelle branche] qui est utilsée
 
+## Voir les branches
+	Pour voir tous les noms de branches existantes, faire 
+	git branch --all
+
+## Se positionner sur une branche
+	Pour se positionner sur une branche, faire
+	git checkout [nom de la branche]
+
+1. Créez une branche portant votre prénom
+2. Positionnez vous sur la branche "modifier"
 
 
