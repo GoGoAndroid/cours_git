@@ -1,26 +1,15 @@
-# Découverte de git
+﻿# Les branches
 
-## A quoi sert git ?
-	C'est un système de gestion de version décentralisé.
-	
-	Il permet le développement en groupe,
-	de disposer de l'historique complet des changements d'un code source,
-	de gérer des développements concurents sur un même projet (release, dev, alpha, beta, ...) .
+loin d'être une complication les branches facilitent le travail.
+	Elles renent le travail en collaboration plus aisé
+	Elles permettent de développer plusieurs versions en parralèle
+	Elles servent aussi à figer nommer les versions (v1.0,v1.1, dev, pre-prod,alpha, beta, ...)
 	
 
-## Installation de git
+## La branche courante
+	La branche courante, sur laquelle vous travaillez, est identifiée par une "*" lorsque vous tapez la commande :
+		git branch 
 
-	Windows : http://msysgit.github.io
-	Mac : http://sourceforge.net/projects/git-osx-installer/
-	Linux : 
-		yum install git
-		apt-get install git
-		
-	
-## Initialisation d'un dépot
-
-	Création d'un dépot vide : git init
-	Création d'un dépot à partir d'un dépot : glit clone [url]
 	
 ### L'url
 	Ici : url = https://github.com/GoGoAndroid/cours_git.git
@@ -35,9 +24,4 @@
 
 	Executez la commande git checkout configuration, lisez les explications et réalisez les instructions.
 
-	
-		
-	
-	
-	
-	
+
